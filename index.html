@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ntf-card">
+      <div class="card-img-box">
+        <a href="#">
+          <img src="images/image-equilibrium.jpg" alt="cube" class="card-img" />
+          <div class="card-hover-box">
+            <img src="images/icon-view.svg" alt="view" class="card-img-view" />
+          </div>
+        </a>
+      </div>
+      <div class="card-text-box">
+        <a href="#">
+          <h3 class="card-heading">
+            Equilibrium <span class="card-num">#3429</span>
+          </h3>
+        </a>
+
+        <p class="card-text">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="card-details-box">
+          <div class="card-price card-detail">
+            <img
+              src="images/icon-ethereum.svg"
+              alt="ethereum icon"
+              class="ethereum-icon"
+            />
+            <span class="ethereum-price">0.041 ETH</span>
+          </div>
+          <div class="card-time card-detail">
+            <img
+              src="images/icon-clock.svg"
+              alt="clock icon"
+              class="time-icon"
+            />
+            <span class="time-left">3 days left</span>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="card-footer">
+        <img
+          src="images/image-avatar.png"
+          alt="Jules Wyvern Imgage"
+          class="card-owner-img"
+        />
+        <p class="create-by">
+          Creation of <a href="#" class="owner-name">Jules Wyvern</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
